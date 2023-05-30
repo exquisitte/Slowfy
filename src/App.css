@@ -1,0 +1,17 @@
+body {
+  background-color: #050505;
+}
+
+.Header {
+  position: absolute;
+  background-color: #1A1A1A;
+  width: 100%;
+  height: 79px;
+  width: 100vh;
+}
+
+.Header img {
+  position: absolute;
+  width: 23px;
+height: 23px;
+}
