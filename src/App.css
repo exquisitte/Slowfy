@@ -1,17 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+
 body {
   background-color: #050505;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 1920px;
+  height: 1080px;
 }
 
 .Header {
   position: absolute;
-  background-color: #1A1A1A;
-  width: 100%;
-  height: 79px;
-  width: 100vh;
+  width: 1887px;
+  height: 114px;
+  left: 17px;
+  top: 17px;
+  background: #1A1A1A;
+  border-radius: 10px;
 }
 
-.Header img {
-  position: absolute;
-  width: 23px;
-height: 23px;
+.Home {
+  
+position: absolute;
+width: 90px;
+height: 102px;
+left: 80px;
+top: 28px;
 }
+
+.Biblary{
+  position: absolute;
+width: 90px;
+height: 102px;
+left: 212px;
+top: 28px;
+}
+
+.Search {
+  position: absolute;
+width: 90px;
+height: 102px;
+left: 344px;
+top: 28px;
+
+}
+
+.Player {
+  position: absolute;
+  width: 503px;
+height: 211px;
+left: 17px;
+top: 143px;
+  
+background: #1A1A1A;
+border-radius: 10px;
+}
+
+.Sidebar {
+  
+position: absolute;
+width: 503px;
+height: 622px;
+left: 17px;
+top: 368px;
+
+background: #1A1A1A;
+border-radius: 10px;
+}
+
+.Header h1 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D1D1D1;
+left: -15px;
+}
+
+.Home h1 {
+  position: absolute;
+
+
+
+}
+
+.Biblary h1 {
+  position: absolute;
+  left: -20px;
+}
+
+.Search h1 {
+  position: absolute;
+  left: -5px;
+}
+
+
+.slider {
+  width: 353px;
+  height: 6px;
+  background-color: #ccc;
+  position: relative;
+  left: 70px;
+  right: 8.86%;
+  top: 64.29%;
+  bottom: 21.43%;
+  border-radius: 10px;
+}
+
+.slider-track {
+  width: 0;
+  height: 100%;
+  background-color: white;
+}
+
+.slider-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.slider-input::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.slider h1,h2{
+  position: absolute;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 100%;
+/* identical to box height, or 13px */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.5);
+
+top: -10px;
+}
+
+.slider h1 {
+  position: absolute;
+width: 27px;
+height: 13px;
+left: -40px;
+top: -11px;
+}
+
+.slider h2 {
+  position: absolute;
+  width: 29px;
+  height: 13px;
+  left: 370px;
+  top: -13px;
+}
+
+.Player img {
+  position: relative;
+  top: 120px;
+  left: 65px;
+  margin-left: 17px;
+}
+
+.slider1 {
+  width: 75px;
+  height: 6px;
+  background-color: #ccc;
+  position: relative;
+  left: 69%;
+  right: 14.91%;
+  top: 94px;
+  bottom: 35.07%;
+  border-radius: 10px;
+}
+
+
+.Opis {
+  position: absolute;
+  left: -50px;
+  top: -100px;
+}
+
+.Opis h1 {
+  top: 135px;
+  position: absolute;
+  left: 200px;
+  white-space: nowrap;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13.5px;
+
+/* identical to box height, or 14px */
+
+
+
+color: #FFFFFF;
+}
+
+.Opis p {
+  position: relative;
+  left: 200px;
+  top: 75px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12.5px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+.Opis .Star {
+  top: 35px;
+  position: relative;
+left: 485px;
+}
+
