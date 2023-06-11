@@ -1,15 +1,19 @@
 {
   "name": "slowfy-3",
   "private": true,
+  "homepage": "https://exquisitte.github.io/Slowfy",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-howler": "^5.2.0",
